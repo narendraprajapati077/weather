@@ -1,0 +1,74 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+    background:#222;
+    background-image: url('http://source.unsplash.com/1800x1000/?landscape');
+    
+}
+.card{
+    background: #360606d0;
+    color: white;
+    padding: 2em;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 2em;
+}
+button {
+    margin: 0.5em;
+    height: 2.5em;
+    width: 2.5em;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    background: #3c010156;
+    color: white;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    margin: 1em;
+}
+.weather{
+    margin: 1em;
+}
+input.search-bar {
+    height:2em;
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 24px;
+    background: #3c010156;
+    color: white;
+    font-family: inherit;
+    font-size: 110%;
+}
+button:hover{
+    background: #5801017e;
+}
+input.search-bar:hover{
+    background: #5801017e;
+}
+.flex{
+    display: flex;
+    align-items: center;
+
+}
+.description{
+    text-transform: capitalize;
+}
+h1.temp{
+    margin: 10px;
+    margin-bottom: 10px;
+}
